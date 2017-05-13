@@ -9,12 +9,95 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  Got a problem ?
-  <p>
-   
-    <br/>
-    <button ion-button (click)='takePicture();'>Yes</button>
 
-  </p>
-</ion-content>
+      <ion-content scroll="false">
+        <section class = "home-container">
+        <div class = "row">
+ 
+            <div class = "col text-center" style="color:white">
+              <h1>What is the issue ?</h1>
+            </div>
+ 
+        </div>
+ 
+ 
+        <div class = "row">
+ 
+            <div class = "col text-center">
+              <div>
+                <img src="assets/icon/pothole.png" height="40%"  width="40%" alt="">
+              </div>
+              <div style="color:white">
+                Pothole
+              </div>
+            </div>
+ 
+ 
+            <div class = "col text-center">
+              <div>
+                <img src="assets/icon/graffiti.png" height="25%"  width="25%" alt="">
+              </div>
+              <div style="color:white">
+                Graffiti
+              </div>
+            </div>
+ 
+          </div>
+ 
+ 
+          <div class = "row">
+ 
+            <div class = "col text-center">
+              <div>
+                <img src="assets/icon/brokenLight.png" height="30%"  width="30%" alt="">
+              </div>
+              <div style="color:white">
+                Broken Light
+              </div>
+            </div>
+ 
+ 
+            <div class = "col text-center">
+              <div>
+                <img src="assets/icon/flower.png" height="22%"  width="22%" alt="">
+              </div>
+              <div style="color:white">
+                Tree / Plants
+              </div>
+            </div>
+ 
+          </div>
+ 
+ 
+          <div class = "row">
+ 
+            <div class = "col text-center">
+              <div>
+                <img src="assets/icon/waste.png" height="35%" width="35%" alt="">
+              </div>
+              <div style="color:white">
+                Waste
+              </div>
+            </div>
+ 
+ 
+            <div class = "col text-center">
+              <div>
+                <img src="assets/icon/brokenLadder.png" height="30%" width="30%" alt="">
+              </div>
+              <div style="color:white">
+                Street equipment
+              </div>
+            </div>
+ 
+          </div>
+
+          <div class = "row">
+ 
+            <div class = "col text-center">
+              <button ion-button outline large class = "button button-positive" (click)='bypassPicture();' style="color:white;border-color:white">Take a picture</button>
+            </div>
+ 
+          </div>
+      </section>
+      </ion-content>
